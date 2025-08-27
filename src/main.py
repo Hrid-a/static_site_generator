@@ -5,7 +5,6 @@ from generate import generate_pages_recursive
 import shutil
 
 def main():
-    # Get basepath from first CLI argument, default to "/"
     basepath = sys.argv[1] if len(sys.argv) > 1 else "/"
 
     docs_dir = Path("docs")
